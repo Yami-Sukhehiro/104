@@ -33,4 +33,7 @@ meanwm = statistics.median(heightlist)
 meanhmm = statistics.median(weightlist)
 meanwmm = statistics.median(heightlist)
 
+stdhmm = statistics.stdev(weightlist)
+stdwmm = statistics.stdev(heightlist)
+
 print(meanh, meanw, meanhm, meanwm, meanhmm, meanwmm)
